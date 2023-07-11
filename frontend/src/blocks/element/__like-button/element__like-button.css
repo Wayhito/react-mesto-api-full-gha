@@ -1,0 +1,8 @@
+.element__like-button {
+    border: none;
+    padding: 0;
+    background: none;
+    width: min-content;
+    height: min-content;
+    cursor: pointer;
+}

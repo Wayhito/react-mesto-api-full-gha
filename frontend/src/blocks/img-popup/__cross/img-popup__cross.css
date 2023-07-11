@@ -1,0 +1,13 @@
+.img-popup__cross {
+    object-fit: cover;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 920px) {
+    .img-popup__cross {
+        width: 20px;
+        height: 20px;
+    }
+}

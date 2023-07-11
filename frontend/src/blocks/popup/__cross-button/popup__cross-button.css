@@ -1,0 +1,14 @@
+.popup__cross-button {
+    margin-left: 478px;
+    margin-bottom: 8px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 920px) {
+    .popup__cross-button {
+        margin-bottom: 16px;
+        margin-left: 262px;
+    }
+}
