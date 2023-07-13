@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.113.162
+IP 158.160.113.162
 
 Frontend https://react-mesto.wayhito.nomoredomains.work
 
