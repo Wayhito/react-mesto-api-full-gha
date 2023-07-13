@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.113.162
 
-Frontend https://...
+Frontend https://react-mesto.wayhito.nomoredomains.work
 
-Backend https://...
+Backend https://api.react-mesto.wayhito.nomoredomains.work

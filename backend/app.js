@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const { errors } = require('celebrate');
@@ -36,16 +38,19 @@ app.use(limiter);
 app.use(requestLogger);
 
 app.use(cors);
-
 app.use(helmet());
+
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 
 app.use(routes);
 
+// Ошибки
 app.use(errorLogger);
-
-// Логгер ошибок
 app.use(errors());
-
 app.use(handleError);
 
 app.listen(PORT, () => {
